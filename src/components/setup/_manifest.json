@@ -1,0 +1,28 @@
+{
+  "name": "setup",
+  "path": "src/components/setup",
+  "strata": 3,
+  "strataName": "Setup & Onboarding Modals",
+  "description": "Écrans d'initialisation de partie et profils de leader.",
+  "publicExports": [
+    "MainMenuScreen",
+    "GameSetupScreen",
+    "UserProfileView"
+  ],
+  "allowedDependencies": [
+    "../../data/db_archetypes.json",
+    "../../data/db_planets.json",
+    "../../data/db_systems.json",
+    "../../lib/firebase",
+    "../../lib/formatters",
+    "../../services/authService",
+    "../../services/authServiceSaveService",
+    "../../services/integrations/serviceRegistry",
+    "../../services/storage",
+    "../../store/useEngineStore",
+    "firebase/auth",
+    "lucide-react",
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.491Z"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "SYS-001",
+    "name": "Sol",
+    "type": "G2V naine jaune",
+    "distanceLy": 0,
+    "commLatency": "4 min – 6 h",
+    "bodies": "8 planètes, 1 ceinture",
+    "dangerIndex": 1,
+    "statusV1": "Canon — origine",
+    "description": "Le berceau de l'humanité, sous tutelle du Consortium Terrestre central."
+  },
+  {
+    "id": "SYS-002",
+    "name": "Proxima Centauri",
+    "type": "M5.5Ve naine rouge",
+    "distanceLy": 4.24,
+    "commLatency": "4.2 ans",
+    "bodies": "3 planètes",
+    "dangerIndex": 4,
+    "statusV1": "Canon — V1",
+    "description": "Système stellaire le plus proche, sujet à d'intenses éruptions magnétiques coronales."
+  },
+  {
+    "id": "SYS-003",
+    "name": "Tau Ceti",
+    "type": "G8V naine jaune",
+    "distanceLy": 11.9,
+    "commLatency": "11.9 ans",
+    "bodies": "5 planètes, 2 ceintures denses",
+    "dangerIndex": 3,
+    "statusV1": "Canon — V1",
+    "description": "Étoile stable entourée de deux disques de débris massifs et de riches gisements minéraux."
+  },
+  {
+    "id": "SYS-004",
+    "name": "TRAPPIST-1",
+    "type": "M8V naine ultra-froide",
+    "distanceLy": 40.7,
+    "commLatency": "40.7 ans",
+    "bodies": "7 planètes telluriques",
+    "dangerIndex": 3,
+    "statusV1": "Canon — V1",
+    "description": "Système compact remarquable de sept mondes telluriques en résonance orbitale."
+  },
+  {
+    "id": "SYS-005",
+    "name": "Gliese 667 C",
+    "type": "M1.5V naine rouge",
+    "distanceLy": 23.6,
+    "commLatency": "23.6 ans",
+    "bodies": "3 planètes, système triple",
+    "dangerIndex": 3,
+    "statusV1": "Extension L3",
+    "description": "Système hiérarchique triple offrant des perspectives d'expansion complexes."
+  },
+  {
+    "id": "SYS-006",
+    "name": "Kepler-442",
+    "type": "K5V naine orange",
+    "distanceLy": 1206,
+    "commLatency": "1206 ans",
+    "bodies": "1 planète confirmée",
+    "dangerIndex": 2,
+    "statusV1": "Extension L3",
+    "description": "Cible ultra-lointaine hautement prometteuse mais logistiquement coupée du noyau."
+  },
+  {
+    "id": "SYS-007",
+    "name": "Lalande 21185",
+    "type": "M2V naine rouge",
+    "distanceLy": 8.3,
+    "commLatency": "8.3 ans",
+    "bodies": "2 planètes",
+    "dangerIndex": 3,
+    "statusV1": "Extension L3",
+    "description": "Proximité relative avec de sévères contraintes de surface."
+  },
+  {
+    "id": "SYS-008",
+    "name": "Epsilon Eridani",
+    "type": "K2V naine orange",
+    "distanceLy": 10.5,
+    "commLatency": "10.5 ans",
+    "bodies": "2 planètes, disque de débris",
+    "dangerIndex": 4,
+    "statusV1": "Extension L3",
+    "description": "Système jeune et turbulent présentant un taux d'impacts d'astéroïdes élevé."
+  }
+]

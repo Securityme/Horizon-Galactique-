@@ -1,0 +1,93 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Information about a registered user",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 256 },
+        "displayName": { "type": "string", "maxLength": 128 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "GameSave": {
+      "title": "GameSave",
+      "description": "Cloud saved game state for a user",
+      "type": "object",
+      "properties": {
+        "saveId": { "type": "string", "maxLength": 128 },
+        "ownerId": { "type": "string", "maxLength": 128 },
+        "contractVersion": { "type": "string", "maxLength": 32 },
+        "gameVersion": { "type": "string", "maxLength": 32 },
+        "seed": { "type": "number" },
+        "checkpointTurn": { "type": "number" },
+        "checkpoint": { "type": "object" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["saveId", "ownerId", "contractVersion", "seed", "checkpointTurn", "checkpoint"]
+    },
+    "UserSettings": {
+      "title": "UserSettings",
+      "description": "UI, audio and display settings for user",
+      "type": "object",
+      "properties": {
+        "theme": { "type": "string", "maxLength": 64 },
+        "volume": { "type": "number" },
+        "language": { "type": "string", "maxLength": 16 },
+        "ambientDrone": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["theme", "volume", "language"]
+    },
+    "ChronicleEntry": {
+      "title": "ChronicleEntry",
+      "description": "Historical log entry for a specific turn",
+      "type": "object",
+      "properties": {
+        "turn": { "type": "number" },
+        "event": { "type": "string" },
+        "popTotal": { "type": "number" },
+        "era": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["turn", "event"]
+    },
+    "CommunityPulse": {
+      "title": "CommunityPulse",
+      "description": "Global aggregated statistics across all players",
+      "type": "object",
+      "properties": {
+        "totalCitizensSaved": { "type": "number" },
+        "totalErasAdvanced": { "type": "number" },
+        "activeColonists": { "type": "number" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document"
+    },
+    "/users/{userId}/saves/{saveId}": {
+      "schema": "GameSave",
+      "description": "User cloud save states"
+    },
+    "/users/{userId}/saves/{saveId}/history/{turn}": {
+      "schema": "ChronicleEntry",
+      "description": "Historical timeline of the colony"
+    },
+    "/users/{userId}/settings/ui": {
+      "schema": "UserSettings",
+      "description": "User settings"
+    },
+    "/global/pulse": {
+      "schema": "CommunityPulse",
+      "description": "Global statistics"
+    }
+  }
+}

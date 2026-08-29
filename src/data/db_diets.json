@@ -1,0 +1,11 @@
+[
+  { "id": "DIT-01", "name": "Rations de survie", "costPerTurn": 12, "healthPerTurn": -2, "stressPerTurn": 3, "prestige": 0, "availability": "Ère I", "constraint": "Imposé si nourriture critique" },
+  { "id": "DIT-02", "name": "Protéines de synthèse", "costPerTurn": 34, "healthPerTurn": 0, "stressPerTurn": 1, "prestige": 0, "availability": "BLD-B03", "constraint": "Aucune" },
+  { "id": "DIT-03", "name": "Standard hydroponique", "costPerTurn": 78, "healthPerTurn": 1, "stressPerTurn": 0, "prestige": 1, "availability": "BLD-B01", "constraint": "Aucune" },
+  { "id": "DIT-04", "name": "Régime enrichi haute performance", "costPerTurn": 220, "healthPerTurn": 3, "stressPerTurn": -1, "prestige": 3, "availability": "BLD-B02", "constraint": "Requiert un suivi médical" },
+  { "id": "DIT-05", "name": "Régime gastronomique importé", "costPerTurn": 1400, "healthPerTurn": 2, "stressPerTurn": -4, "prestige": 9, "availability": "BLD-L03", "constraint": "Consomme des crédits Consortium" },
+  { "id": "DIT-06", "name": "Prescription médicale stricte", "costPerTurn": 410, "healthPerTurn": 6, "stressPerTurn": 2, "prestige": 0, "availability": "BLD-S02", "constraint": "Imposé après un événement de santé" },
+  { "id": "DIT-07", "name": "Jeûne intermittent optimisé", "costPerTurn": 48, "healthPerTurn": 4, "stressPerTurn": 2, "prestige": 1, "availability": "SKL-05 >= 40", "constraint": "Malus temporaire de commandement" },
+  { "id": "DIT-08", "name": "Nutrition intraveineuse cybernétique", "costPerTurn": 680, "healthPerTurn": 5, "stressPerTurn": 5, "prestige": -3, "availability": "EQP-05", "constraint": "Isolement social — malus de diplomatie" },
+  { "id": "DIT-09", "name": "Régime rituel de faction", "costPerTurn": 160, "healthPerTurn": 1, "stressPerTurn": -3, "prestige": 4, "availability": "Alignement faction", "constraint": "Verrouille la réputation d'une faction" }
+]

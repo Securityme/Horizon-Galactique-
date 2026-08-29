@@ -1,0 +1,14 @@
+{
+  "name": "hooks",
+  "path": "src/hooks",
+  "strata": 0,
+  "strataName": "General Domain",
+  "description": "Module applicatif standard.",
+  "publicExports": [
+    "useIsMobile"
+  ],
+  "allowedDependencies": [
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.710Z"
+}

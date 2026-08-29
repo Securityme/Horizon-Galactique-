@@ -1,0 +1,26 @@
+{
+  "name": "layout",
+  "path": "src/components/layout",
+  "strata": 4,
+  "strataName": "UI Runtime & Layout",
+  "description": "Composants de mise en page, barres d'outils et navigation.",
+  "publicExports": [
+    "FipRadioWidget",
+    "TabBar",
+    "HeaderBar"
+  ],
+  "allowedDependencies": [
+    "../../data/db_eras.json",
+    "../../lib/formatters",
+    "../../services/fipRadio",
+    "../../services/authService",
+    "../../services/integrations/serviceRegistry",
+    "../../store/useEngineStore",
+    "../modals/ResourceDetailModal",
+    "./FipRadioWidget",
+    "firebase/auth",
+    "lucide-react",
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.607Z"
+}

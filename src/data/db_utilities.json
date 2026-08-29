@@ -1,0 +1,11 @@
+[
+  { "id": "UTL-ELE", "name": "Électrique haute tension", "unit": "MW", "lossRate": 0.032, "costPerKm": 6400, "criticality": 5, "consequence": "Arrêt de tous les bâtiments non autonomes en 1 tour", "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "UTL-O2", "name": "Distribution d'oxygène", "unit": "kg / tour", "lossRate": 0.011, "costPerKm": 11200, "criticality": 5, "consequence": "Mortalité de cohorte de 4 % par tour dans la zone isolée", "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "UTL-EAU", "name": "Eau potable pressurisée", "unit": "m3 / tour", "lossRate": 0.024, "costPerKm": 8900, "criticality": 5, "consequence": "Chute du bonheur de 18 points, arrêt de l'agriculture", "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "UTL-USE", "name": "Collecte des eaux usées", "unit": "m3 / tour", "lossRate": 0.008, "costPerKm": 7100, "criticality": 3, "consequence": "Épidémie — risque sanitaire multiplié par 2.6", "minEra": "ERA_2_OUTPOST" },
+  { "id": "UTL-CHA", "name": "Chauffage urbain", "unit": "MJ / tour", "lossRate": 0.068, "costPerKm": 9400, "criticality": 4, "consequence": "Hypothermie de cohorte selon T_moy planétaire", "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "UTL-CLI", "name": "Climatisation et évacuation thermique", "unit": "MJ / tour", "lossRate": 0.051, "costPerKm": 9400, "criticality": 4, "consequence": "Surchauffe des dômes, arrêt des serveurs et laboratoires", "minEra": "ERA_2_OUTPOST" },
+  { "id": "UTL-H2", "name": "Hydrogène industriel", "unit": "kg / tour", "lossRate": 0.040, "costPerKm": 16800, "criticality": 3, "consequence": "Arrêt des piles à combustible et de la métallurgie", "minEra": "ERA_2_OUTPOST" },
+  { "id": "UTL-GAZ", "name": "Gaz de procédé — CH4, Ar, N2", "unit": "m3 / tour", "lossRate": 0.036, "costPerKm": 14200, "criticality": 2, "consequence": "Arrêt du raffinage et de la fabrication de polymères", "minEra": "ERA_3_GEODESIC_DOME" },
+  { "id": "UTL-DAT", "name": "Réseau de données et communications", "unit": "Tb / tour", "lossRate": 0.002, "costPerKm": 3800, "criticality": 4, "consequence": "Perte de l'automatisation, jets D20 sans bonus d'assistance", "minEra": "ERA_1_CAPSULE_HUB" }
+]

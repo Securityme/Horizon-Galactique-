@@ -1,0 +1,50 @@
+[
+  {
+    "id": "FAC-01",
+    "name": "Consortium Terrestre",
+    "weights": { "P5": 0.50, "P6": 0.30, "P4": -0.20 },
+    "fearLever": "Blocus de fret",
+    "respectLever": "Contrats d'importation T3",
+    "sanction": "Embargo — importations coupées 10 tours"
+  },
+  {
+    "id": "FAC-02",
+    "name": "Républicains d'Aura",
+    "weights": { "P4": 0.45, "P7": 0.35, "P5": -0.20 },
+    "fearLever": "Loi martiale",
+    "respectLever": "Élections locales",
+    "sanction": "Sécession d'un district — perte de 12 % des HA"
+  },
+  {
+    "id": "FAC-03",
+    "name": "Caste Scientifique",
+    "weights": { "P1": 0.60, "P9": 0.25, "P3": -0.15 },
+    "fearLever": "Réquisition des laboratoires",
+    "respectLever": "Financement R&D",
+    "sanction": "Fuite des cerveaux — perte de 30 % des T3"
+  },
+  {
+    "id": "FAC-04",
+    "name": "Cercle Terra-Bio",
+    "weights": { "P9": 0.50, "P8": 0.35, "P2": -0.15 },
+    "fearLever": "Interdiction de culte",
+    "respectLever": "Quotas de terraformation douce",
+    "sanction": "Sabotage des injecteurs atmosphériques"
+  },
+  {
+    "id": "FAC-05",
+    "name": "Milice Industrielle",
+    "weights": { "P2": 0.45, "P3": 0.40, "P9": -0.15 },
+    "fearLever": "Purge des cadres",
+    "respectLever": "Primes de production",
+    "sanction": "Grève générale — production ISRU divisée par 3"
+  },
+  {
+    "id": "FAC-06",
+    "name": "Cartel Marchand",
+    "weights": { "P6": 0.55, "P5": 0.25, "P7": -0.20 },
+    "fearLever": "Saisie des avoirs",
+    "respectLever": "Baisse des taxes de marché",
+    "sanction": "Marché noir — 40 % des taxes détournées"
+  }
+]

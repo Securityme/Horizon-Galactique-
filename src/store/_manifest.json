@@ -1,0 +1,29 @@
+{
+  "name": "store",
+  "path": "src/store",
+  "strata": 0,
+  "strataName": "Unified State Stores",
+  "description": "Gestion globale de l'état UI et simulation (Zustand).",
+  "publicExports": [
+    "useUIStore",
+    "useTerritoryStore",
+    "useSimLifeStore",
+    "useChronicleStore",
+    "useEngineStore"
+  ],
+  "allowedDependencies": [
+    "../lib/contracts",
+    "../lib/firebase",
+    "../narrative/destinyDraft",
+    "../narrative/fallbackWriter",
+    "../narrative/mulberry32",
+    "../services/audio",
+    "../services/authServiceSaveService",
+    "../services/storage",
+    "../simulation/engine",
+    "../types/payloads",
+    "../types/state",
+    "zustand"
+  ],
+  "lastSync": "2026-08-28T13:31:13.708Z"
+}

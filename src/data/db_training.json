@@ -1,0 +1,14 @@
+[
+  { "id": "FRM-01", "name": "Auto-apprentissage sur archives", "targetSkill": "choice", "gain": 4, "durationTurns": 2, "cost": 800, "prerequisite": "UTL-DAT" },
+  { "id": "FRM-02", "name": "Stage technique en usine", "targetSkill": "engineering", "gain": 11, "durationTurns": 3, "cost": 6200, "prerequisite": "BLD-R02" },
+  { "id": "FRM-03", "name": "Académie de commandement", "targetSkill": "command", "gain": 16, "durationTurns": 5, "cost": 28000, "prerequisite": "BLD-R03" },
+  { "id": "FRM-04", "name": "École diplomatique du Consortium", "targetSkill": "diplomacy", "gain": 18, "durationTurns": 6, "cost": 44000, "prerequisite": "BLD-L03" },
+  { "id": "FRM-05", "name": "Doctorat en sciences planétaires", "targetSkill": "science", "gain": 24, "durationTurns": 9, "cost": 96000, "prerequisite": "BLD-R05" },
+  { "id": "FRM-06", "name": "Internat hospitalier", "targetSkill": "medicine", "gain": 22, "durationTurns": 8, "cost": 72000, "prerequisite": "BLD-S03" },
+  { "id": "FRM-07", "name": "Cursus de gestion publique", "targetSkill": "economy", "gain": 15, "durationTurns": 5, "cost": 34000, "prerequisite": "BLD-R03" },
+  { "id": "FRM-08", "name": "Instruction militaire avancée", "targetSkill": "military", "gain": 19, "durationTurns": 6, "cost": 38000, "prerequisite": "BLD-D04" },
+  { "id": "FRM-09", "name": "Protocole d'adaptation génétique", "targetSkill": "bioAdaptation", "gain": 21, "durationTurns": 7, "cost": 88000, "prerequisite": "BLD-B04" },
+  { "id": "FRM-10", "name": "Séminaire de logistique orbitale", "targetSkill": "logistics", "gain": 14, "durationTurns": 4, "cost": 26000, "prerequisite": "BLD-L03" },
+  { "id": "FRM-11", "name": "Atelier d'art oratoire", "targetSkill": "rhetoric", "gain": 13, "durationTurns": 4, "cost": 19000, "prerequisite": "BLD-P03" },
+  { "id": "FRM-12", "name": "Immersion neurale accélérée", "targetSkill": "choice", "gain": 30, "durationTurns": 2, "cost": 240000, "prerequisite": "EQP-04, BLD-R06" }
+]

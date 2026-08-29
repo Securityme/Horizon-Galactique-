@@ -1,0 +1,39 @@
+{
+  "name": "views",
+  "path": "src/components/views",
+  "strata": 4,
+  "strataName": "UI Runtime & Bento Grid",
+  "description": "Vues de jeu Bento Grid (Sol, Orbite, Chronique, Stats).",
+  "publicExports": [
+    "JournalView",
+    "GovernanceView",
+    "CommunityView",
+    "Macro4XView",
+    "EventCategory",
+    "FeedEvent",
+    "EventFeedPanel"
+  ],
+  "allowedDependencies": [
+    "../../data/db_activities.json",
+    "../../data/db_books.json",
+    "../../data/db_buildings.json",
+    "../../data/db_decrees.json",
+    "../../data/db_diets.json",
+    "../../data/db_equipment.json",
+    "../../data/db_eras.json",
+    "../../data/db_properties.json",
+    "../../data/db_research.json",
+    "../../data/db_utilities.json",
+    "../../lib/formatters",
+    "../../services/integrations/chatService",
+    "../../services/integrations/serviceRegistry",
+    "../../store/useEngineStore",
+    "../../types/state",
+    "../modals/EventDetailModal",
+    "./EventFeedPanel",
+    "lucide-react",
+    "react",
+    "recharts"
+  ],
+  "lastSync": "2026-08-28T13:31:13.403Z"
+}

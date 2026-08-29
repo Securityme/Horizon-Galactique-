@@ -1,0 +1,36 @@
+{
+  "name": "app",
+  "path": "app",
+  "strata": 5,
+  "strataName": "App Framework & Routing",
+  "description": "Next.js App Router, layouts et pages principales.",
+  "publicExports": [
+    "metadata",
+    "RootLayout",
+    "HomePage",
+    "NotFound"
+  ],
+  "allowedDependencies": [
+    "../src/components/AuthGate",
+    "../src/components/layout/HeaderBar",
+    "../src/components/layout/TabBar",
+    "../src/components/modals/AdvisorChatModal",
+    "../src/components/modals/BuildingInspectorModal",
+    "../src/components/modals/CycleReportModal",
+    "../src/components/modals/SettingsModal",
+    "../src/components/modals/TechTreeModal",
+    "../src/components/modals/TutorialModal",
+    "../src/components/setup/GameSetupScreen",
+    "../src/components/setup/MainMenuScreen",
+    "../src/components/views/CommunityView",
+    "../src/components/views/GovernanceView",
+    "../src/components/views/JournalView",
+    "../src/components/views/Macro4XView",
+    "../src/store/useEngineStore",
+    "./globals.css",
+    "next",
+    "next/link",
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.814Z"
+}

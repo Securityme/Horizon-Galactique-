@@ -1,0 +1,14 @@
+[
+  { "id": "PRM-01", "name": "Conduite de surface", "durationTurns": 1, "cost": 600, "prerequisite": "Âge >= 16", "unlocks": "VEH-T01 à VEH-T09" },
+  { "id": "PRM-02", "name": "Pilotage atmosphérique", "durationTurns": 3, "cost": 8400, "prerequisite": "PRM-01, Ingénierie >= 30", "unlocks": "VEH-A01 à VEH-A04" },
+  { "id": "PRM-03", "name": "Pilotage orbital", "durationTurns": 5, "cost": 26000, "prerequisite": "PRM-02, Ingénierie >= 55", "unlocks": "VEH-N01 à VEH-N05" },
+  { "id": "PRM-04", "name": "Opérateur ISRU certifié", "durationTurns": 2, "cost": 3200, "prerequisite": "Ingénierie >= 25", "unlocks": "VEH-T02, VEH-T04, BLD-I02" },
+  { "id": "PRM-05", "name": "Habilitation nucléaire", "durationTurns": 4, "cost": 18000, "prerequisite": "Science >= 60", "unlocks": "BLD-E03, BLD-E05, BLD-E06" },
+  { "id": "PRM-06", "name": "Habilitation bio-confinement", "durationTurns": 3, "cost": 12000, "prerequisite": "Médecine >= 45", "unlocks": "BLD-B04, BLD-B05" },
+  { "id": "PRM-07", "name": "Port d'arme réglementaire", "durationTurns": 1, "cost": 1400, "prerequisite": "Militaire >= 20", "unlocks": "EQP-17" },
+  { "id": "PRM-08", "name": "Commandement militaire", "durationTurns": 6, "cost": 34000, "prerequisite": "PRM-07, Militaire >= 65", "unlocks": "Direction garnison" },
+  { "id": "PRM-09", "name": "Exercice médical", "durationTurns": 8, "cost": 4200, "prerequisite": "Médecine >= 70", "unlocks": "Auto-chirurgie, BLD-S04" },
+  { "id": "PRM-10", "name": "Autorité législative", "durationTurns": 4, "cost": 0, "prerequisite": "Légitimité >= 50", "unlocks": "Promulgation décrets" },
+  { "id": "PRM-11", "name": "Habilitation antimatière", "durationTurns": 10, "cost": 180000, "prerequisite": "PRM-05, Science >= 90", "unlocks": "ENR-ANT" },
+  { "id": "PRM-12", "name": "Négociateur accrédité du Consortium", "durationTurns": 5, "cost": 56000, "prerequisite": "Diplomatie >= 70", "unlocks": "Contrats fret privilégiés" }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "integrations",
+  "path": "src/services/integrations",
+  "strata": -2,
+  "strataName": "Local-First & CRDT I/O",
+  "description": "Persistance IndexedDB, deltas et outbox pattern.",
+  "publicExports": [
+    "CloudSqlStatus",
+    "checkCloudSqlConnection",
+    "toggleCloudSqlManualConnect",
+    "CommunityMessage",
+    "subscribeToCommunityChat",
+    "sendCommunityMessage",
+    "sendGoogleChatMessage",
+    "IntegratedServiceState",
+    "ServiceListener",
+    "integratedServicesManager"
+  ],
+  "allowedDependencies": [
+    "../../lib/firebase",
+    "../firebase",
+    "./cloudSqlService",
+    "firebase/auth",
+    "firebase/firestore"
+  ],
+  "lastSync": "2026-08-28T13:31:13.227Z"
+}

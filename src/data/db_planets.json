@@ -1,0 +1,372 @@
+[
+  {
+    "id": "PLA-001",
+    "name": "Pyros-IV",
+    "systemId": "SYS-003",
+    "orbitIndex": 1,
+    "planetClass": "Volcanique",
+    "gravityG": 1.80,
+    "initPressureBar": 4.50,
+    "atmosphere": "CO2 / SO2 toxique dense",
+    "meanTempC": 187,
+    "isruRichness": 0.95,
+    "waterSource": "Vapeur captive",
+    "hectaresTotal": 51000000,
+    "difficulty": 5,
+    "statusV1": "Canon V1",
+    "radiationMsv": 1.2,
+    "orbitalPeriodDays": 224,
+    "geoActivity": 0.85,
+    "description": "Monde hyperbare volcanique aux ressources minérales colossales mais aux conditions d'écrasement extrêmes.",
+    "physicsEngine": {
+      "gravityVector": "1.80g (Compression Forte)",
+      "magnetosphere": "Dense (95%)",
+      "tectonicIndex": 0.85,
+      "atmosphericDensityBar": 4.5
+    },
+    "weatherCycle": {
+      "primaryPattern": "Pluies d'Acide Sulfurique & Geysers Magmatiques",
+      "frequencyTurns": 3,
+      "hazardType": "Corrosion Réfractaire",
+      "hazardSeverity": "Moyenne"
+    },
+    "startingModifiers": {
+      "bonus": "+50% Énergie Géothermique & +35% Minerai Raffiné",
+      "malus": "-30% Stabilité des Bâtiments & -20% Croissance Pop",
+      "theme": "Enfer Volcanique & Métallurgie Haute Température"
+    }
+  },
+  {
+    "id": "PLA-002",
+    "name": "Aeolis Prime",
+    "systemId": "SYS-002",
+    "orbitIndex": 2,
+    "planetClass": "Désertique Froide",
+    "gravityG": 0.38,
+    "initPressureBar": 0.006,
+    "atmosphere": "CO2 ténu, tempêtes de poussière",
+    "meanTempC": -63,
+    "isruRichness": 0.60,
+    "waterSource": "Glace polaire",
+    "hectaresTotal": 144000000,
+    "difficulty": 3,
+    "statusV1": "Canon V1",
+    "radiationMsv": 2.4,
+    "orbitalPeriodDays": 687,
+    "geoActivity": 0.15,
+    "description": "Planète désertique froide balayée par des tempêtes d'oxydes de fer, idéale pour l'ingénierie atmosphérique.",
+    "physicsEngine": {
+      "gravityVector": "0.38g (Faible Pression)",
+      "magnetosphere": "Modérée (40%)",
+      "tectonicIndex": 0.15,
+      "atmosphericDensityBar": 0.006
+    },
+    "weatherCycle": {
+      "primaryPattern": "Tempêtes de Poussière d'Oxyde de Fer Globales",
+      "frequencyTurns": 5,
+      "hazardType": "Obscurcissement Solaire",
+      "hazardSeverity": "Moyenne"
+    },
+    "startingModifiers": {
+      "bonus": "+40% Efficacité de Terraformation & +25% Vitesse de Construction",
+      "malus": "-25% Rendement Panneaux Solaires lors des Tempêtes",
+      "theme": "Frontière Martienne & Dômes Géodésiques"
+    }
+  },
+  {
+    "id": "PLA-003",
+    "name": "Kryos-II",
+    "systemId": "SYS-004",
+    "orbitIndex": 3,
+    "planetClass": "Cryogénique",
+    "gravityG": 0.62,
+    "initPressureBar": 0.02,
+    "atmosphere": "N2 / CH4 cryogénique",
+    "meanTempC": -178,
+    "isruRichness": 0.45,
+    "waterSource": "Glace massive",
+    "hectaresTotal": 89000000,
+    "difficulty": 4,
+    "statusV1": "Canon V1",
+    "radiationMsv": 0.8,
+    "orbitalPeriodDays": 420,
+    "geoActivity": 0.40,
+    "description": "Monde gelé aux couches de glace kilométriques et aux poches souterraines d'hydrocarbures liquides.",
+    "physicsEngine": {
+      "gravityVector": "0.62g (Sous-Surface Gelée)",
+      "magnetosphere": "Élevée (80%)",
+      "tectonicIndex": 0.40,
+      "atmosphericDensityBar": 0.02
+    },
+    "weatherCycle": {
+      "primaryPattern": "Blizzards Cryogéniques d'Azote & Méthane",
+      "frequencyTurns": 4,
+      "hazardType": "Gel Structural des Fusibles",
+      "hazardSeverity": "Élevée"
+    },
+    "startingModifiers": {
+      "bonus": "+50% Refroidissement Superconducteur & +30% Réserves d'Eau",
+      "malus": "+20% Coût en Énergie de Chauffage des Habitats",
+      "theme": "Cryogénie Profonde & Extraction de Méthane"
+    }
+  },
+  {
+    "id": "PLA-004",
+    "name": "Ferrum-IX",
+    "systemId": "SYS-003",
+    "orbitIndex": 2,
+    "planetClass": "Noyau Métallique",
+    "gravityG": 1.32,
+    "initPressureBar": 0.00,
+    "atmosphere": "Aucune — vide",
+    "meanTempC": -91,
+    "isruRichness": 1.00,
+    "waterSource": "Aucune",
+    "hectaresTotal": 22000000,
+    "difficulty": 4,
+    "statusV1": "Extension L2",
+    "radiationMsv": 4.5,
+    "orbitalPeriodDays": 98,
+    "geoActivity": 0.05,
+    "description": "Noyau métallique exposé directement au vide spatial. Extraction industrielle pure.",
+    "physicsEngine": {
+      "gravityVector": "1.32g (Densité Métallique Super-Massive)",
+      "magnetosphere": "Nulle (0%)",
+      "tectonicIndex": 0.05,
+      "atmosphericDensityBar": 0.00
+    },
+    "weatherCycle": {
+      "primaryPattern": "Éruptions de Rayonnements Gammas Directes",
+      "frequencyTurns": 2,
+      "hazardType": "Bombardement Radiatif",
+      "hazardSeverity": "Critique"
+    },
+    "startingModifiers": {
+      "bonus": "+70% Rendement Extraction Minerai & Alliages",
+      "malus": "-40% Croissance Biologique & Pas d'Agriculture Extérieure",
+      "theme": "Fonderie Orbitale & Cité Silo Métallique"
+    }
+  },
+  {
+    "id": "PLA-005",
+    "name": "Thalassa-VI",
+    "systemId": "SYS-004",
+    "orbitIndex": 4,
+    "planetClass": "Océanique Global",
+    "gravityG": 0.88,
+    "initPressureBar": 1.20,
+    "atmosphere": "N2 / H2O saturée",
+    "meanTempC": 4,
+    "isruRichness": 0.30,
+    "waterSource": "Océan global",
+    "hectaresTotal": 310000000,
+    "difficulty": 3,
+    "statusV1": "Extension L2",
+    "radiationMsv": 0.4,
+    "orbitalPeriodDays": 312,
+    "geoActivity": 0.60,
+    "description": "Planète océanique globale dépourvue de terres émergées naturelles. Arcologies flottantes exigées.",
+    "physicsEngine": {
+      "gravityVector": "0.88g (Hydrodynamique Complète)",
+      "magnetosphere": "Élevée (85%)",
+      "tectonicIndex": 0.60,
+      "atmosphericDensityBar": 1.20
+    },
+    "weatherCycle": {
+      "primaryPattern": "Hurricanes Abyssal & Marées Cyclopéennes",
+      "frequencyTurns": 6,
+      "hazardType": "Tempête Hydro-Acoustique",
+      "hazardSeverity": "Moyenne"
+    },
+    "startingModifiers": {
+      "bonus": "+60% Production d'Hydrogène / Oxygène & +25% Bonheur Pop",
+      "malus": "-30% Espace de Construction Terrestre (Nécessite Plateformes)",
+      "theme": "Arcologie Flottante & Abysses Océaniques"
+    }
+  },
+  {
+    "id": "PLA-006",
+    "name": "Nyx-III",
+    "systemId": "SYS-002",
+    "orbitIndex": 1,
+    "planetClass": "Monde Verrouillé",
+    "gravityG": 0.91,
+    "initPressureBar": 0.35,
+    "atmosphere": "CO2 / Ar, rotation synchrone",
+    "meanTempC": 25,
+    "isruRichness": 0.55,
+    "waterSource": "Glace du terminateur",
+    "hectaresTotal": 97000000,
+    "difficulty": 4,
+    "statusV1": "Extension L2",
+    "radiationMsv": 1.8,
+    "orbitalPeriodDays": 18,
+    "geoActivity": 0.25,
+    "description": "Verrouillée gravitationnellement : une face incandescente et une face glacée, colonisable le long du terminateur.",
+    "physicsEngine": {
+      "gravityVector": "0.91g (Gradient Thermique Extrême)",
+      "magnetosphere": "Moyenne (50%)",
+      "tectonicIndex": 0.25,
+      "atmosphericDensityBar": 0.35
+    },
+    "weatherCycle": {
+      "primaryPattern": "Vents Supersoniques du Terminateur (400 km/h)",
+      "frequencyTurns": 2,
+      "hazardType": "Cisaillement Éolien",
+      "hazardSeverity": "Élevée"
+    },
+    "startingModifiers": {
+      "bonus": "+50% Énergie Solaire Continue sur la Face Éclairée",
+      "malus": "-20% Surface Utile Colonisable (Ruban du Terminateur uniquement)",
+      "theme": "Cité du Terminateur & Energie Solaire Perpétuelle"
+    }
+  },
+  {
+    "id": "PLA-007",
+    "name": "Astraea Prime",
+    "systemId": "SYS-001",
+    "orbitIndex": 3,
+    "planetClass": "Terrestre Récurrente",
+    "gravityG": 1.00,
+    "initPressureBar": 1.01,
+    "atmosphere": "N2 / O2 / CO2",
+    "meanTempC": 14,
+    "isruRichness": 0.70,
+    "waterSource": "Lacs & Nappes Phréatiques",
+    "hectaresTotal": 120000000,
+    "difficulty": 2,
+    "statusV1": "Canon V1",
+    "radiationMsv": 0.3,
+    "orbitalPeriodDays": 365,
+    "geoActivity": 0.30,
+    "description": "Berceau colonial modèle de Sol avec conditions environnementales hautement équilibrées.",
+    "physicsEngine": {
+      "gravityVector": "1.00g (Standard Terrestre)",
+      "magnetosphere": "Parfaite (100%)",
+      "tectonicIndex": 0.30,
+      "atmosphericDensityBar": 1.01
+    },
+    "weatherCycle": {
+      "primaryPattern": "Cycle Saisonnier Équilibré",
+      "frequencyTurns": 12,
+      "hazardType": "Variations Saisonnières Mineures",
+      "hazardSeverity": "Faible"
+    },
+    "startingModifiers": {
+      "bonus": "+20% Croissance Populaire & +15% Bonheur Colonial",
+      "malus": "Aucun malus sévère",
+      "theme": "Modèle Standard du Consortium & Paradis Pionnier"
+    }
+  },
+  {
+    "id": "PLA-008",
+    "name": "Hyperion-VIII",
+    "systemId": "SYS-001",
+    "orbitIndex": 6,
+    "planetClass": "Lune de Géante de Gaz",
+    "gravityG": 0.22,
+    "initPressureBar": 0.15,
+    "atmosphere": "Ammoniac / Méthane",
+    "meanTempC": -140,
+    "isruRichness": 0.80,
+    "waterSource": "Cryo-Volcans",
+    "hectaresTotal": 45000000,
+    "difficulty": 3,
+    "statusV1": "Extension L3",
+    "radiationMsv": 1.5,
+    "orbitalPeriodDays": 14,
+    "geoActivity": 0.70,
+    "description": "Lune soumise aux forces de marée colossales de sa géante de gaz voisine, riche en carburants exotiques.",
+    "physicsEngine": {
+      "gravityVector": "0.22g (Marée Gravitationnelle Jovienne)",
+      "magnetosphere": "Forte (Proximité Géante)",
+      "tectonicIndex": 0.70,
+      "atmosphericDensityBar": 0.15
+    },
+    "weatherCycle": {
+      "primaryPattern": "Geysers d'Ammoniac & Aurores Magnétiques",
+      "frequencyTurns": 3,
+      "hazardType": "Instabilité de Marée",
+      "hazardSeverity": "Moyenne"
+    },
+    "startingModifiers": {
+      "bonus": "+40% Production de Gaz & Carburant Exotique",
+      "malus": "-15% Stabilité des Réseaux d'Oxygène",
+      "theme": "Station Orbitale Jovienne & Sub-Surface Cryo"
+    }
+  },
+  {
+    "id": "PLA-009",
+    "name": "Chronos-VI",
+    "systemId": "SYS-005",
+    "orbitIndex": 3,
+    "planetClass": "Monde Relique Ring",
+    "gravityG": 1.15,
+    "initPressureBar": 0.85,
+    "atmosphere": "Argon / N2 / Traces Biologiques",
+    "meanTempC": 8,
+    "isruRichness": 0.85,
+    "waterSource": "Bassins Fossiles",
+    "hectaresTotal": 180000000,
+    "difficulty": 2,
+    "statusV1": "Extension L3",
+    "radiationMsv": 0.5,
+    "orbitalPeriodDays": 480,
+    "geoActivity": 0.20,
+    "description": "Ancien monde mystérieux entouré d'anneaux de débris synthétiques antiques et de vestiges technologiques.",
+    "physicsEngine": {
+      "gravityVector": "1.15g (Champ Anomalique)",
+      "magnetosphere": "Élevée (90%)",
+      "tectonicIndex": 0.20,
+      "atmosphericDensityBar": 0.85
+    },
+    "weatherCycle": {
+      "primaryPattern": "Chutes de Poussières d'Anneau & Ionisation",
+      "frequencyTurns": 8,
+      "hazardType": "Brouillage des Communications",
+      "hazardSeverity": "Faible"
+    },
+    "startingModifiers": {
+      "bonus": "+50% Vitesse de Recherche Technologique & +30% Archéologie",
+      "malus": "-10% Légitimité Initiale (Méfiance des Factions Fidei)",
+      "theme": "Cité-Relique xeno-Synthétique & Laboratoires d'Anomalies"
+    }
+  },
+  {
+    "id": "PLA-010",
+    "name": "Verdania-Prime",
+    "systemId": "SYS-006",
+    "orbitIndex": 1,
+    "planetClass": "Bio-Super-Terre",
+    "gravityG": 1.05,
+    "initPressureBar": 0.78,
+    "atmosphere": "N2 / O2 / CO2, biosphère primitive",
+    "meanTempC": 12,
+    "isruRichness": 0.50,
+    "waterSource": "Océans et fleuves",
+    "hectaresTotal": 421000000,
+    "difficulty": 2,
+    "statusV1": "Extension L3",
+    "radiationMsv": 0.5,
+    "orbitalPeriodDays": 355,
+    "geoActivity": 0.35,
+    "description": "Monde pré-biotique foisonnant d'organismes photosynthétiques exotiques.",
+    "physicsEngine": {
+      "gravityVector": "1.05g (Pression Biologique Stable)",
+      "magnetosphere": "Totale (98%)",
+      "tectonicIndex": 0.35,
+      "atmosphericDensityBar": 0.78
+    },
+    "weatherCycle": {
+      "primaryPattern": "Pluies de Spores Photosynthétiques",
+      "frequencyTurns": 5,
+      "hazardType": "Prolifération Bio-Aéroosol",
+      "hazardSeverity": "Faible"
+    },
+    "startingModifiers": {
+      "bonus": "+60% Production Nourriture & +20% Croissance Démographique",
+      "malus": "-15% Rendement Minières (Réglementations Écologiques)",
+      "theme": "Éco-Arcologie & Biologie Exotique"
+    }
+  }
+]

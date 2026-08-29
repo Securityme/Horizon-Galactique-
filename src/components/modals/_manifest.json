@@ -1,0 +1,38 @@
+{
+  "name": "modals",
+  "path": "src/components/modals",
+  "strata": 3,
+  "strataName": "Global UI Overlays & Modals",
+  "description": "Modales dynamiques, écrans de configuration et dialogues.",
+  "publicExports": [
+    "AdvisorChatModal",
+    "TutorialModal",
+    "ResourceTypeId",
+    "ResourceDetailModal",
+    "BuildingInspectorModal",
+    "EventDetailModal",
+    "TechTreeModal",
+    "CycleReportModal",
+    "SettingsModal"
+  ],
+  "allowedDependencies": [
+    "../../data/db_buildings.json",
+    "../../data/db_planets.json",
+    "../../data/db_research.json",
+    "../../data/db_utilities.json",
+    "../../lib/formatters",
+    "../../services/audio",
+    "../../services/fipRadio",
+    "../../services/authService",
+    "../../services/storage",
+    "../../store/useEngineStore",
+    "../../store/useUIStore",
+    "../../types/state",
+    "../setup/UserProfileView",
+    "../views/EventFeedPanel",
+    "firebase/auth",
+    "lucide-react",
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.594Z"
+}

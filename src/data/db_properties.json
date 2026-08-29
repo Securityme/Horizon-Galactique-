@@ -1,0 +1,15 @@
+[
+  { "id": "PRP-01", "name": "Couchette de commandement", "type": "Résidence", "privateCost": 0, "maintenancePerTurn": 0, "familyCapacity": 1, "stressDelta": 4, "prestigeBonus": 0, "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "PRP-02", "name": "Module privé pressurisé", "type": "Résidence", "privateCost": 14000, "maintenancePerTurn": 90, "familyCapacity": 3, "stressDelta": 1, "prestigeBonus": 2, "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "PRP-03", "name": "Appartement de dôme", "type": "Résidence", "privateCost": 62000, "maintenancePerTurn": 380, "familyCapacity": 5, "stressDelta": -2, "prestigeBonus": 5, "minEra": "ERA_3_GEODESIC_DOME" },
+  { "id": "PRP-04", "name": "Villa géodésique", "type": "Résidence", "privateCost": 240000, "maintenancePerTurn": 1400, "familyCapacity": 8, "stressDelta": -5, "prestigeBonus": 12, "minEra": "ERA_4_OPEN_AIR" },
+  { "id": "PRP-05", "name": "Manoir de surface", "type": "Résidence", "privateCost": 980000, "maintenancePerTurn": 5200, "familyCapacity": 14, "stressDelta": -8, "prestigeBonus": 24, "minEra": "ERA_5_METROPOLIS" },
+  { "id": "PRP-06", "name": "Penthouse d'arcologie", "type": "Résidence", "privateCost": 1640000, "maintenancePerTurn": 8900, "familyCapacity": 10, "stressDelta": -9, "prestigeBonus": 31, "minEra": "ERA_5_METROPOLIS" },
+  { "id": "PRP-07", "name": "Résidence orbitale privée", "type": "Résidence", "privateCost": 4200000, "maintenancePerTurn": 24000, "familyCapacity": 12, "stressDelta": -11, "prestigeBonus": 46, "minEra": "ERA_6_MEGASTRUCTURE" },
+  { "id": "PRP-08", "name": "Domaine planétaire dynastique", "type": "Résidence", "privateCost": 12800000, "maintenancePerTurn": 68000, "familyCapacity": 26, "stressDelta": -14, "prestigeBonus": 72, "minEra": "ERA_7_SOVEREIGN" },
+  { "id": "PRP-09", "name": "Rover personnel", "type": "Véhicule", "privateCost": 9800, "maintenancePerTurn": 62, "familyCapacity": 0, "stressDelta": -1, "prestigeBonus": 3, "minEra": "ERA_1_CAPSULE_HUB" },
+  { "id": "PRP-10", "name": "Aérodyne privé", "type": "Véhicule", "privateCost": 88000, "maintenancePerTurn": 540, "familyCapacity": 0, "stressDelta": -3, "prestigeBonus": 11, "minEra": "ERA_3_GEODESIC_DOME" },
+  { "id": "PRP-11", "name": "Navette personnelle", "type": "Véhicule", "privateCost": 340000, "maintenancePerTurn": 1900, "familyCapacity": 0, "stressDelta": -4, "prestigeBonus": 19, "minEra": "ERA_4_OPEN_AIR" },
+  { "id": "PRP-12", "name": "Yacht orbital", "type": "Véhicule", "privateCost": 740000, "maintenancePerTurn": 3900, "familyCapacity": 0, "stressDelta": -6, "prestigeBonus": 34, "minEra": "ERA_5_METROPOLIS" },
+  { "id": "PRP-13", "name": "Exosquelette de parade", "type": "Véhicule", "privateCost": 126000, "maintenancePerTurn": 720, "familyCapacity": 0, "stressDelta": 0, "prestigeBonus": 16, "minEra": "ERA_5_METROPOLIS" }
+]

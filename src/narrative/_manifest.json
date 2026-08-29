@@ -1,0 +1,20 @@
+{
+  "name": "narrative",
+  "path": "src/narrative",
+  "strata": -1,
+  "strataName": "Statecharts & Narrative FSM",
+  "description": "Moteur narratif, journal des événements et PRNG déterministe.",
+  "publicExports": [
+    "DESTINY_DECK",
+    "drawDestinyCards",
+    "DeterministicDice",
+    "generateFallbackTurnNarrative",
+    "generateFallbackCycleReport"
+  ],
+  "allowedDependencies": [
+    "../lib/contracts",
+    "../types/payloads",
+    "./mulberry32"
+  ],
+  "lastSync": "2026-08-28T13:31:13.017Z"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "components",
+  "path": "src/components",
+  "strata": 4,
+  "strataName": "General UI Components",
+  "description": "Composants réutilisables d'interface utilisateur.",
+  "publicExports": [
+    "AuthGate"
+  ],
+  "allowedDependencies": [
+    "../lib/firebase",
+    "../services/authServiceSaveService",
+    "./setup/MainMenuScreen",
+    "firebase/auth",
+    "react"
+  ],
+  "lastSync": "2026-08-28T13:31:13.231Z"
+}

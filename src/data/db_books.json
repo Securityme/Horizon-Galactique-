@@ -1,0 +1,42 @@
+[
+  {
+    "id": "LIV-01",
+    "title": "Livre I : L'Ancrage de Poussière",
+    "eraScope": "ERA_1_CAPSULE_HUB - ERA_2_OUTPOST",
+    "turnRange": "Tours 1 à 30",
+    "desc": "Les premiers colons débarquent dans le module initial. L'urgence est à l'extraction de glace, à la stabilisation de l'oxygène et à la survie contre les tempêtes régolithiques.",
+    "theme": "Survie & Infrastructure Primaire"
+  },
+  {
+    "id": "LIV-02",
+    "title": "Livre II : Les Racines sous le Dôme",
+    "eraScope": "ERA_3_GEODESIC_DOME",
+    "turnRange": "Tours 31 à 70",
+    "desc": "Érection de l'immense coupole géodésique. La population croît, les premières corporations s'implantent et les tensions d'allocation de ressources s'intensifient.",
+    "theme": "Expansion Urbaine & Tensions Politiques"
+  },
+  {
+    "id": "LIV-03",
+    "title": "Livre III : Le Souffle des Géantes",
+    "eraScope": "ERA_4_OPEN_AIR",
+    "turnRange": "Tours 71 à 120",
+    "desc": "L'atmosphère planétaire s'épaissit. Les premiers districts à ciel ouvert émergent tandis que les factions s'affrontent sur le modèle de gouvernance.",
+    "theme": "Terraformation Active & Démographie"
+  },
+  {
+    "id": "LIV-04",
+    "title": "Livre IV : L'Ombre du Consortium",
+    "eraScope": "ERA_5_METROPOLIS",
+    "turnRange": "Tours 121 à 180",
+    "desc": "Le Consortium stellaire tente de reprendre le contrôle de vos méga-infrastructures industrielles. Le spectre de la sécession ou de l'intégration impériale se pose.",
+    "theme": "Haute Diplomatie & Mégaprojets"
+  },
+  {
+    "id": "LIV-05",
+    "title": "Livre V : L'Aube Souveraine",
+    "eraScope": "ERA_6_MEGASTRUCTURE - ERA_7_SOVEREIGN",
+    "turnRange": "Tours 181+",
+    "desc": "L'archologie devient une civilisation autosuffisante capable d'influencer le destin stellaire tout entier.",
+    "theme": "Apogée & Souveraineté Totale"
+  }
+]

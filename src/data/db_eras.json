@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ERA_1_CAPSULE_HUB",
+    "name": "Capsule Hub",
+    "ruleCondition": "Initialisation de la seed",
+    "haMaxResp": 2,
+    "popRange": "10 – 100",
+    "turnScale": "MONTH",
+    "turnScaleLabel": "1 tour = 1 mois",
+    "cycleScaleLabel": "10 mois",
+    "unlocks": "Modules de vaisseau, forage d'eau, BLD-H01, BLD-I01",
+    "gridGranularity": "PARCEL",
+    "gridSize": 14
+  },
+  {
+    "id": "ERA_2_OUTPOST",
+    "name": "Avant-Poste Sub-Surface",
+    "ruleCondition": "Pop >= 100 ET P_net >= 20 MW ET BLD-I02 construit",
+    "haMaxResp": 10,
+    "popRange": "100 – 800",
+    "turnScale": "MONTH",
+    "turnScaleLabel": "1 tour = 1 mois",
+    "cycleScaleLabel": "10 mois",
+    "unlocks": "ENR-GEO, BLD-H03, branche RD-A",
+    "gridGranularity": "PARCEL",
+    "gridSize": 14
+  },
+  {
+    "id": "ERA_3_GEODESIC_DOME",
+    "name": "Dôme Géodésique",
+    "ruleCondition": "Pop >= 800 ET P_net >= 80 MW ET BLD-M01 construit",
+    "haMaxResp": 50,
+    "popRange": "800 – 15 000",
+    "turnScale": "YEAR",
+    "turnScaleLabel": "1 tour = 1 an",
+    "cycleScaleLabel": "10 ans — cycle générationnel",
+    "unlocks": "Zonage urbain, BLD-R03, branches RD-B et RD-C",
+    "gridGranularity": "BLOCK",
+    "gridSize": 20
+  },
+  {
+    "id": "ERA_4_OPEN_AIR",
+    "name": "Village Plein Air",
+    "ruleCondition": "Terraform >= 60 % ET P_atm >= 0.70 bar ET X_O2 >= 19.5 % ET Pop >= 15 000",
+    "haMaxResp": 300,
+    "popRange": "15 000 – 150 000",
+    "turnScale": "YEAR",
+    "turnScaleLabel": "1 tour = 1 an",
+    "cycleScaleLabel": "10 ans",
+    "unlocks": "Démolition des dômes, BLD-P04, BLD-E05, VEH-A02",
+    "gridGranularity": "BLOCK",
+    "gridSize": 20
+  },
+  {
+    "id": "ERA_5_METROPOLIS",
+    "name": "Métropole Régionale",
+    "ruleCondition": "Pop >= 150 000 ET 3 districts reliés ET RD-A08 validé",
+    "haMaxResp": 2500,
+    "popRange": "150 000 – 1 000 000",
+    "turnScale": "LUSTRUM",
+    "turnScaleLabel": "1 tour = 5 ans",
+    "cycleScaleLabel": "50 ans — échelle civilisationnelle",
+    "unlocks": "TRN-05, TRN-06, BLD-H06, BLD-R06",
+    "gridGranularity": "DISTRICT",
+    "gridSize": 18
+  },
+  {
+    "id": "ERA_6_MEGASTRUCTURE",
+    "name": "Mégastructure Globale",
+    "ruleCondition": "Pop >= 1 000 000 ET Terraform >= 85 % ET 1 mégastructure achevée",
+    "haMaxResp": 15000,
+    "popRange": "1 M – 5 M",
+    "turnScale": "LUSTRUM",
+    "turnScaleLabel": "1 tour = 5 ans",
+    "cycleScaleLabel": "50 ans",
+    "unlocks": "TRN-09, BLD-E06, BLD-I07, BLD-T05",
+    "gridGranularity": "REGION",
+    "gridSize": 20
+  },
+  {
+    "id": "ERA_7_SOVEREIGN",
+    "name": "Union Souveraine",
+    "ruleCondition": "Pop >= 5 M ET autonomie 100 % ET Constitution promulguée",
+    "haMaxResp": 999999,
+    "popRange": "5 M et plus",
+    "turnScale": "LUSTRUM",
+    "turnScaleLabel": "1 tour = 5 ans",
+    "cycleScaleLabel": "50 ans",
+    "unlocks": "BLD-C05, BLD-M03, TRN-11, RD-D09",
+    "gridGranularity": "REGION",
+    "gridSize": 20
+  }
+]

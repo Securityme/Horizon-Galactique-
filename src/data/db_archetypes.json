@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ARC-01",
+    "name": "Le Stratège Tactique",
+    "bonus": "+30 % discipline en crise · +20 % puissance de milice",
+    "malus": "-20 % bonheur initial · +15 % coût d'entretien",
+    "initialTeam": ["Commandant", "Capitaine", "Armurier", "Chirurgien militaire"],
+    "startingGear": ["VEH-T09", "BLD-D01", "BLD-D02"],
+    "skills": { "engineering": 20, "command": 45, "diplomacy": 15, "science": 15, "medicine": 20, "economy": 15, "military": 50, "bioAdaptation": 10, "logistics": 30, "rhetoric": 25 },
+    "traits": { "crisisStyle": 85, "loyalty": 75, "cognitiveOrientation": 40 },
+    "privateCredits": 10000
+  },
+  {
+    "id": "ARC-02",
+    "name": "Le Visionnaire Bio-Splicer",
+    "bonus": "+30 % adaptation génétique · +20 % santé max",
+    "malus": "-20 % intégrité des structures · -15 % ISRU",
+    "initialTeam": ["Xénobiologiste", "Généticien", "Botaniste", "Toxinologue"],
+    "startingGear": ["VEH-T01", "BLD-B01", "BLD-B05"],
+    "skills": { "engineering": 15, "command": 20, "diplomacy": 20, "science": 45, "medicine": 45, "economy": 15, "military": 10, "bioAdaptation": 55, "logistics": 20, "rhetoric": 20 },
+    "traits": { "crisisStyle": 45, "loyalty": 60, "cognitiveOrientation": 85 },
+    "privateCredits": 12000
+  },
+  {
+    "id": "ARC-03",
+    "name": "L'Architecte Technocrate",
+    "bonus": "+35 % vitesse R&D · 1 palier technique offert",
+    "malus": "+25 % consommation d'énergie · -15 % santé initiale",
+    "initialTeam": ["Physicien quantique", "Architecte IA", "Data-scientist", "Cyber-médecin"],
+    "startingGear": ["VEH-D05", "BLD-R04", "UTL-DAT"],
+    "skills": { "engineering": 50, "command": 25, "diplomacy": 15, "science": 55, "medicine": 20, "economy": 30, "military": 10, "bioAdaptation": 15, "logistics": 25, "rhetoric": 20 },
+    "traits": { "crisisStyle": 60, "loyalty": 70, "cognitiveOrientation": 95 },
+    "privateCredits": 15000
+  },
+  {
+    "id": "ARC-04",
+    "name": "Le Diplomate de la Guilde",
+    "bonus": "+25 % crédits Consortium · +15 réputation toutes factions",
+    "malus": "-15 % extraction · -10 % terraformation",
+    "initialTeam": ["Diplomate", "Négociateur", "Comptable", "Sociologue"],
+    "startingGear": ["VEH-N04", "BLD-L01", "PRM-12"],
+    "skills": { "engineering": 10, "command": 30, "diplomacy": 60, "science": 15, "medicine": 15, "economy": 45, "military": 10, "bioAdaptation": 10, "logistics": 35, "rhetoric": 55 },
+    "traits": { "crisisStyle": 50, "loyalty": 65, "cognitiveOrientation": 55 },
+    "privateCredits": 25000
+  },
+  {
+    "id": "ARC-05",
+    "name": "L'Écologue Terraformeur",
+    "bonus": "+35 % conversion atmosphérique · +20 % efficacité pompes O2",
+    "malus": "-20 % extraction métallique · +15 % usure",
+    "initialTeam": ["Climatologue", "Hydro-ingénieur", "Écologue", "Géologue"],
+    "startingGear": ["VEH-A04", "BLD-T01", "BLD-T02"],
+    "skills": { "engineering": 35, "command": 20, "diplomacy": 20, "science": 50, "medicine": 25, "economy": 15, "military": 10, "bioAdaptation": 40, "logistics": 25, "rhetoric": 25 },
+    "traits": { "crisisStyle": 55, "loyalty": 70, "cognitiveOrientation": 80 },
+    "privateCredits": 10000
+  },
+  {
+    "id": "ARC-06",
+    "name": "Le Pionnier Explorateur",
+    "bonus": "+40 % vitesse de cartographie · +25 % découverte anomalies",
+    "malus": "-15 % défense · -10 % stockage",
+    "initialTeam": ["Cartographe", "Prospecteur", "Survivaliste", "Médecin de raid"],
+    "startingGear": ["VEH-S03", "VEH-T01", "BLD-L02"],
+    "skills": { "engineering": 30, "command": 35, "diplomacy": 20, "science": 35, "medicine": 30, "economy": 20, "military": 25, "bioAdaptation": 30, "logistics": 40, "rhetoric": 20 },
+    "traits": { "crisisStyle": 75, "loyalty": 80, "cognitiveOrientation": 60 },
+    "privateCredits": 14000
+  },
+  {
+    "id": "ARC-07",
+    "name": "Le Magnat Industriel",
+    "bonus": "+40 % vitesse d'extraction · +25 % stockage minerai",
+    "malus": "+30 % pollution · -15 % approbation écologiste",
+    "initialTeam": ["Ingénieur général", "Foreur senior", "Chimiste", "Milicien d'usine"],
+    "startingGear": ["VEH-T02", "BLD-I03", "BLD-I04"],
+    "skills": { "engineering": 45, "command": 30, "diplomacy": 15, "science": 20, "medicine": 10, "economy": 50, "military": 20, "bioAdaptation": 10, "logistics": 45, "rhetoric": 20 },
+    "traits": { "crisisStyle": 70, "loyalty": 55, "cognitiveOrientation": 50 },
+    "privateCredits": 30000
+  },
+  {
+    "id": "ARC-08",
+    "name": "Le Cyber-Pirate Data",
+    "bonus": "+35 % efficacité automatisation · +25 % crédits privés",
+    "malus": "-25 % santé physique · +20 % consommation réseau",
+    "initialTeam": ["Data-baron", "Expert cybernétique", "Spécialiste réseau", "Ingénieur robotique"],
+    "startingGear": ["VEH-D01", "BLD-R06", "EQP-15"],
+    "skills": { "engineering": 40, "command": 20, "diplomacy": 25, "science": 45, "medicine": 15, "economy": 40, "military": 20, "bioAdaptation": 20, "logistics": 30, "rhetoric": 35 },
+    "traits": { "crisisStyle": 65, "loyalty": 40, "cognitiveOrientation": 90 },
+    "privateCredits": 35000
+  },
+  {
+    "id": "ARC-09",
+    "name": "Le Clinicien Humaniste",
+    "bonus": "+35 % régénération santé · +25 % bonheur initial",
+    "malus": "-20 % production industrielle · -15 % vitesse construction",
+    "initialTeam": ["Médecin-chef", "Épidémiologiste", "Psychologue", "Chirurgien cybernétique"],
+    "startingGear": ["VEH-T05", "BLD-S01", "BLD-S02"],
+    "skills": { "engineering": 15, "command": 25, "diplomacy": 35, "science": 35, "medicine": 60, "economy": 20, "military": 10, "bioAdaptation": 45, "logistics": 25, "rhetoric": 35 },
+    "traits": { "crisisStyle": 50, "loyalty": 85, "cognitiveOrientation": 70 },
+    "privateCredits": 16000
+  },
+  {
+    "id": "ARC-10",
+    "name": "L'Héritier Terrestre",
+    "bonus": "+50 000 crédits privés · +20 légitimité politique",
+    "malus": "-25 % autonomie des colons · +20 % pression des quotas",
+    "initialTeam": ["Noble", "Intendant", "Avocat", "Garde du corps"],
+    "startingGear": ["PRP-04", "EQP-13", "EQP-16"],
+    "skills": { "engineering": 10, "command": 35, "diplomacy": 45, "science": 15, "medicine": 15, "economy": 50, "military": 20, "bioAdaptation": 10, "logistics": 30, "rhetoric": 50 },
+    "traits": { "crisisStyle": 45, "loyalty": 50, "cognitiveOrientation": 45 },
+    "privateCredits": 60000
+  },
+  {
+    "id": "ARC-11",
+    "name": "Le Géologue Mantellique",
+    "bonus": "+30 % production géothermique · +25 % intégrité roches",
+    "malus": "-20 % efficacité solaire · +15 % risque sismique",
+    "initialTeam": ["Vulcanologue", "Ingénieur de puits", "Mineur", "Spécialiste télescopique"],
+    "startingGear": ["VEH-T04", "BLD-E02", "BLD-I01"],
+    "skills": { "engineering": 45, "command": 25, "diplomacy": 15, "science": 40, "medicine": 15, "economy": 25, "military": 15, "bioAdaptation": 15, "logistics": 35, "rhetoric": 15 },
+    "traits": { "crisisStyle": 65, "loyalty": 75, "cognitiveOrientation": 65 },
+    "privateCredits": 12000
+  },
+  {
+    "id": "ARC-12",
+    "name": "Le Métromètre Logistique",
+    "bonus": "+35 % capacité de convoi · +25 % vitesse de transit",
+    "malus": "-15 % R&D · -10 % puissance militaire",
+    "initialTeam": ["Expert logistique", "Chef de gare", "Analyste de flux", "Ingénieur voies"],
+    "startingGear": ["VEH-T07", "BLD-L02", "TRN-02"],
+    "skills": { "engineering": 35, "command": 30, "diplomacy": 25, "science": 20, "medicine": 15, "economy": 40, "military": 15, "bioAdaptation": 10, "logistics": 60, "rhetoric": 25 },
+    "traits": { "crisisStyle": 60, "loyalty": 70, "cognitiveOrientation": 55 },
+    "privateCredits": 18000
+  },
+  {
+    "id": "ARC-13",
+    "name": "Le Théocrate Synthétique",
+    "bonus": "+30 % stabilité en crise · +20 % résistance au stress",
+    "malus": "-25 % recherche séculière · -15 réputation Consortium",
+    "initialTeam": ["Prophète", "Inquisiteur", "Bio-moine", "Architecte sacré"],
+    "startingGear": ["VEH-T01", "BLD-P01", "DIT-09"],
+    "skills": { "engineering": 15, "command": 45, "diplomacy": 30, "science": 15, "medicine": 20, "economy": 25, "military": 30, "bioAdaptation": 30, "logistics": 20, "rhetoric": 55 },
+    "traits": { "crisisStyle": 80, "loyalty": 90, "cognitiveOrientation": 40 },
+    "privateCredits": 15000
+  },
+  {
+    "id": "ARC-14",
+    "name": "L'Agronome Spatiale",
+    "bonus": "+40 % rendement hydroponique · +25 % autonomie eau",
+    "malus": "-20 % production de métal · -15 % résistance météores",
+    "initialTeam": ["Ingénieur agronome", "Bio-chimiste", "Hydrologue", "Botaniste"],
+    "startingGear": ["VEH-T06", "BLD-B01", "BLD-B02"],
+    "skills": { "engineering": 25, "command": 20, "diplomacy": 20, "science": 40, "medicine": 30, "economy": 25, "military": 10, "bioAdaptation": 50, "logistics": 35, "rhetoric": 25 },
+    "traits": { "crisisStyle": 50, "loyalty": 80, "cognitiveOrientation": 75 },
+    "privateCredits": 14000
+  },
+  {
+    "id": "ARC-15",
+    "name": "Le Sécuritateur Tactique",
+    "bonus": "-40 % criminalité · +25 % détection saboteurs",
+    "malus": "-20 libertés civiques · -10 % immigration",
+    "initialTeam": ["Préfet", "Analyste contre-espionnage", "Capitaine de milice", "Enquêteur"],
+    "startingGear": ["VEH-D08", "BLD-D03", "BLD-C04"],
+    "skills": { "engineering": 20, "command": 40, "diplomacy": 15, "science": 20, "medicine": 15, "economy": 20, "military": 55, "bioAdaptation": 15, "logistics": 30, "rhetoric": 35 },
+    "traits": { "crisisStyle": 85, "loyalty": 80, "cognitiveOrientation": 50 },
+    "privateCredits": 18000
+  },
+  {
+    "id": "ARC-16",
+    "name": "Le Cartographe Spéculatif",
+    "bonus": "+30 % découverte gisements · +20 % gains transaction",
+    "malus": "-20 % intégrité des dômes · -15 % stabilité réseau",
+    "initialTeam": ["Prospecteur spatial", "Géomètre", "Spéculateur minier", "Expert forage"],
+    "startingGear": ["VEH-T03", "BLD-I04", "BLD-L01"],
+    "skills": { "engineering": 35, "command": 25, "diplomacy": 30, "science": 35, "medicine": 15, "economy": 45, "military": 15, "bioAdaptation": 15, "logistics": 40, "rhetoric": 30 },
+    "traits": { "crisisStyle": 65, "loyalty": 60, "cognitiveOrientation": 65 },
+    "privateCredits": 28000
+  }
+]

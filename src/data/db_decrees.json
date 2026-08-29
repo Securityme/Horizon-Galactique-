@@ -1,0 +1,50 @@
+[
+  {
+    "id": "DEC-01",
+    "name": "Rationnement Énergétique d'Urgence",
+    "poleId": "P1",
+    "desc": "Priorise l'alimentation des dômes résidentiels et des serres au détriment des forages miniers profonds.",
+    "effects": "+10 % oxygène et survie, -15 % rendement ISRU",
+    "cost": 1500
+  },
+  {
+    "id": "DEC-02",
+    "name": "Mobilisation Industrielle Totale",
+    "poleId": "P2",
+    "desc": "Ordonne le travail en 3x8 sur les fonderies régolithiques pour accélérer la production de métaux raffinés.",
+    "effects": "+25 % extraction minerai, +8 % stress colons, -5 bonheur",
+    "cost": 2200
+  },
+  {
+    "id": "DEC-03",
+    "name": "Patrouilles de Sécurité Renforcées",
+    "poleId": "P3",
+    "desc": "Déploie la milice d'archologie pour contrôler les flux de marchandises et éradiquer la criminalité souterraine.",
+    "effects": "-40 % taux de criminalité, +15 % maintenance sécuritaire",
+    "cost": 3000
+  },
+  {
+    "id": "DEC-04",
+    "name": "Déclaration d'Autonomie Tarifaire",
+    "poleId": "P4",
+    "desc": "Impose une surtaxe sur les transferts financiers vers le Consortium Terrestre pour financer les mégaprojets locaux.",
+    "effects": "+18 % trésorerie publique, -12 réputation Consortium",
+    "cost": 5000
+  },
+  {
+    "id": "DEC-05",
+    "name": "Pacte de Coopération Off-World",
+    "poleId": "P5",
+    "desc": "Signe un traité d'échange technologique avec les stations orbitales de ravitaillement.",
+    "effects": "+15 % subventions Consortium, +10 points R&D par tour",
+    "cost": 4000
+  },
+  {
+    "id": "DEC-06",
+    "name": "Dividende Civique Universel",
+    "poleId": "P7",
+    "desc": "Redistribue une fraction des bénéfices de l'extraction minière à chaque colon enregistré.",
+    "effects": "+15 bonheur citoyen, -8 % trésorerie publique",
+    "cost": 3500
+  }
+]

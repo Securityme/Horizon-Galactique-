@@ -1,0 +1,11 @@
+[
+  { "id": "P1", "name": "Technocratie", "oppositeAxis": "P4 Souverainisme", "effect": "+8 % points R&D, -6 légitimité populaire" },
+  { "id": "P2", "name": "Industrialisme", "oppositeAxis": "P9 Écologisme", "effect": "+12 % extraction ISRU, +9 pollution" },
+  { "id": "P3", "name": "Militarisme", "oppositeAxis": "P5 Diplomatie", "effect": "+14 % efficacité milice, -7 réputation Consortium" },
+  { "id": "P4", "name": "Souverainisme", "oppositeAxis": "P1 Technocratie", "effect": "+11 légitimité, -15 % importations autorisées" },
+  { "id": "P5", "name": "Diplomatie", "oppositeAxis": "P3 Militarisme", "effect": "+10 % crédits Consortium, -9 % milice" },
+  { "id": "P6", "name": "Libéralisme", "oppositeAxis": "P7 Collectivisme", "effect": "+13 % revenus marché, +6 inégalités" },
+  { "id": "P7", "name": "Collectivisme", "oppositeAxis": "P6 Libéralisme", "effect": "+9 bonheur, -11 % revenus privés" },
+  { "id": "P8", "name": "Bio-Adaptation", "oppositeAxis": "P4 Souverainisme", "effect": "+7 % résistance cohorte, -5 réputation Républicains" },
+  { "id": "P9", "name": "Écologisme", "oppositeAxis": "P2 Industrialisme", "effect": "+8 % vitesse terraformation, -10 % extraction" }
+]

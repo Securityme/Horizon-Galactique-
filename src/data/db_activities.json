@@ -1,0 +1,20 @@
+[
+  { "id": "ACT-01", "name": "Entraînement gravitaire en salle", "type": "Sport", "costPerTurn": 40, "healthDelta": 4, "stressDelta": -3, "relationBonus": 0, "riskPct": 2, "riskName": "Blessure", "prerequisite": "BLD-P02" },
+  { "id": "ACT-02", "name": "Course en dôme", "type": "Sport", "costPerTurn": 0, "healthDelta": 3, "stressDelta": -4, "relationBonus": 1, "riskPct": 1, "riskName": "Blessure", "prerequisite": "Ère III" },
+  { "id": "ACT-03", "name": "Escalade de canyon", "type": "Sport", "costPerTurn": 180, "healthDelta": 5, "stressDelta": -7, "relationBonus": 2, "riskPct": 9, "riskName": "Blessure", "prerequisite": "Ère IV" },
+  { "id": "ACT-04", "name": "Natation en réservoir", "type": "Sport", "costPerTurn": 90, "healthDelta": 4, "stressDelta": -5, "relationBonus": 2, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-P02" },
+  { "id": "ACT-05", "name": "Sport en apesanteur", "type": "Sport", "costPerTurn": 620, "healthDelta": 6, "stressDelta": -8, "relationBonus": 5, "riskPct": 5, "riskName": "Blessure", "prerequisite": "BLD-P05" },
+  { "id": "ACT-06", "name": "Arts martiaux de garnison", "type": "Sport", "costPerTurn": 120, "healthDelta": 5, "stressDelta": -4, "relationBonus": 3, "riskPct": 6, "riskName": "Blessure", "prerequisite": "BLD-D01" },
+  { "id": "ACT-07", "name": "Exosport de compétition", "type": "Sport", "costPerTurn": 980, "healthDelta": 3, "stressDelta": -6, "relationBonus": 8, "riskPct": 11, "riskName": "Blessure", "prerequisite": "PRP-13" },
+  { "id": "ACT-08", "name": "Lecture d'archives terrestres", "type": "Loisir", "costPerTurn": 8, "healthDelta": 0, "stressDelta": -3, "relationBonus": 0, "riskPct": 0, "riskName": "Aucun", "prerequisite": "UTL-DAT" },
+  { "id": "ACT-09", "name": "Simulation immersive", "type": "Loisir", "costPerTurn": 140, "healthDelta": -1, "stressDelta": -6, "relationBonus": 1, "riskPct": 4, "riskName": "Dépendance", "prerequisite": "BLD-P01" },
+  { "id": "ACT-10", "name": "Pratique musicale", "type": "Loisir", "costPerTurn": 60, "healthDelta": 1, "stressDelta": -5, "relationBonus": 4, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-P01" },
+  { "id": "ACT-11", "name": "Jardinage botanique", "type": "Loisir", "costPerTurn": 45, "healthDelta": 2, "stressDelta": -6, "relationBonus": 2, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-B01" },
+  { "id": "ACT-12", "name": "Méditation dirigée", "type": "Loisir", "costPerTurn": 20, "healthDelta": 2, "stressDelta": -7, "relationBonus": 0, "riskPct": 0, "riskName": "Aucun", "prerequisite": null },
+  { "id": "ACT-13", "name": "Jeu stratégique de salon", "type": "Loisir", "costPerTurn": 30, "healthDelta": 0, "stressDelta": -4, "relationBonus": 6, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-P01" },
+  { "id": "ACT-14", "name": "Réseau social colonial", "type": "Loisir", "costPerTurn": 12, "healthDelta": -1, "stressDelta": -2, "relationBonus": 9, "riskPct": 5, "riskName": "Scandale", "prerequisite": "UTL-DAT" },
+  { "id": "ACT-15", "name": "Chasse aux anomalies de surface", "type": "Loisir", "costPerTurn": 260, "healthDelta": 2, "stressDelta": -8, "relationBonus": 3, "riskPct": 14, "riskName": "Accident", "prerequisite": "VEH-T01, PRM-01" },
+  { "id": "ACT-16", "name": "Mécénat culturel", "type": "Loisir", "costPerTurn": 2400, "healthDelta": 0, "stressDelta": -4, "relationBonus": 12, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-P03" },
+  { "id": "ACT-17", "name": "Banquet dynastique", "type": "Loisir", "costPerTurn": 4800, "healthDelta": -2, "stressDelta": -9, "relationBonus": 18, "riskPct": 7, "riskName": "Complot", "prerequisite": "PRP-04" },
+  { "id": "ACT-18", "name": "Retraite en biosphère", "type": "Loisir", "costPerTurn": 1200, "healthDelta": 8, "stressDelta": -14, "relationBonus": 2, "riskPct": 0, "riskName": "Aucun", "prerequisite": "BLD-B06" }
+]

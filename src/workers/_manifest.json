@@ -1,0 +1,21 @@
+{
+  "name": "workers",
+  "path": "src/workers",
+  "strata": -3,
+  "strataName": "Master Hypervisor Worker",
+  "description": "Boucle de calcul de tour hors-thread et patchs immuables.",
+  "publicExports": [
+    "simulationEngineWorker",
+    "SimulationWorkerAPI",
+    "default"
+  ],
+  "allowedDependencies": [
+    "../lib/contracts",
+    "../narrative/mulberry32",
+    "../simulation/engine",
+    "../types/payloads",
+    "../types/state",
+    "comlink"
+  ],
+  "lastSync": "2026-08-28T13:31:13.811Z"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "contextual-event",
+  "path": "app/api/gemini/contextual-event",
+  "strata": 5,
+  "strataName": "App Framework & Routing",
+  "description": "Next.js App Router, layouts et pages principales.",
+  "publicExports": [
+    "dynamic",
+    "POST"
+  ],
+  "allowedDependencies": [
+    "@/src/lib/contracts",
+    "@google/genai",
+    "next/server"
+  ],
+  "lastSync": "2026-08-28T13:31:13.820Z"
+}

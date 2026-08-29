@@ -1,0 +1,12 @@
+[
+  { "id": "SKL-01", "name": "Ingénierie", "key": "engineering", "scale": "0 – 100", "rule": "Modificateur D20 sur les Livres 1, 2 et 7 : + floor(valeur / 10)" },
+  { "id": "SKL-02", "name": "Commandement", "key": "command", "scale": "0 – 100", "rule": "Modificateur D20 global : + floor(valeur / 20) ; réduit la dérive de loyauté" },
+  { "id": "SKL-03", "name": "Diplomatie", "key": "diplomacy", "scale": "0 – 100", "rule": "Modificateur D20 sur les Livres 4 et 5 ; réduit la perte de réputation de faction" },
+  { "id": "SKL-04", "name": "Science", "key": "science", "scale": "0 – 100", "rule": "Modificateur D20 sur les Livres 1 et 9 ; + 0.4 % de points R&D par point" },
+  { "id": "SKL-05", "name": "Médecine", "key": "medicine", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 8 ; + 0.3 % de santé de cohorte par point" },
+  { "id": "SKL-06", "name": "Économie", "key": "economy", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 6 ; + 0.5 % de rendement fiscal par point" },
+  { "id": "SKL-07", "name": "Militaire", "key": "military", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 3 ; + 0.6 % d'efficacité de milice par point" },
+  { "id": "SKL-08", "name": "Bio-adaptation", "key": "bioAdaptation", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 8 ; réduit le rejet des implants" },
+  { "id": "SKL-09", "name": "Logistique", "key": "logistics", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 5 ; - 0.4 % de pertes de fret par point" },
+  { "id": "SKL-10", "name": "Rhétorique", "key": "rhetoric", "scale": "0 – 100", "rule": "Modificateur D20 sur le Livre 4 ; + 0.5 % de bonheur au décret par point" }
+]
